@@ -50,6 +50,8 @@ Gene-level permutation test
 Permutation p-value
 ```
 
+---
+
 ## Software Requirements
 
 The analysis is implemented in **R**.
