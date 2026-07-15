@@ -28,6 +28,28 @@ PMIEA/
 
 ---
 
+## PMIEA Workflow
+
+```text
+Tumor and normal gene expression data
+                ↓
+Tumor and normal gene network construction
+                ↓
+Graph-guided random forest
+                ↓
+Gini impurity-based molecular interplay importance
+                ↓
+Differential edge betweenness and hubness
+                ↓
+Topology-aware molecular interplay predictive score
+                ↓
+Edge-based pathway enrichment analysis
+                ↓
+Gene-level permutation test
+                ↓
+Permutation p-value
+```
+
 ## Software Requirements
 
 The analysis is implemented in **R**.
@@ -58,28 +80,6 @@ Rscript sampleR_PMIEA.r
 The current script uses Windows-style paths. For macOS or Linux, replace `\\` with `/`.
 
 ---
-
-## PMIEA Workflow
-
-```text
-Tumor and normal gene expression data
-                ↓
-Tumor and normal gene network construction
-                ↓
-Graph-guided random forest
-                ↓
-Gini impurity-based molecular interplay importance
-                ↓
-Differential edge betweenness and hubness
-                ↓
-Topology-aware molecular interplay predictive score
-                ↓
-Edge-based pathway enrichment analysis
-                ↓
-Gene-level permutation test
-                ↓
-Permutation p-value
-```
 
 
 # Complete PMIEA Analysis Code
