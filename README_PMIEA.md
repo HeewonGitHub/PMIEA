@@ -59,6 +59,29 @@ The current script uses Windows-style paths. For macOS or Linux, replace `\\` wi
 
 ---
 
+## PMIEA Workflow
+
+```text
+Tumor and normal gene expression data
+                ↓
+Tumor and normal gene network construction
+                ↓
+Graph-guided random forest
+                ↓
+Gini impurity-based molecular interplay importance
+                ↓
+Differential edge betweenness and hubness
+                ↓
+Topology-aware molecular interplay predictive score
+                ↓
+Edge-based pathway enrichment analysis
+                ↓
+Gene-level permutation test
+                ↓
+Permutation p-value
+```
+
+
 # Complete PMIEA Analysis Code
 
 
